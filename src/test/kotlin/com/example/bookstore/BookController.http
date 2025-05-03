@@ -1,0 +1,33 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+###
+
+// POST request to example server
+POST https://examples.http-client.intellij.net/post
+    ?generated-in=IntelliJ IDEA
+    Content-Type: application/json
+{
+    "name": "John Doe",
+    "age": 30
+}
+###
+// PUT request to example server
+PUT https://examples.http-client.intellij.net/put
+    ?generated-in=IntelliJ IDEA
+    Content-Type: application/json
+{
+    "name": "John Doe",
+    "age": 31
+}
+###
+// DELETE request to example server
+DELETE https://examples.http-client.intellij.net/delete
+    ?generated-in=IntelliJ IDEA
+    Content-Type: application/json
+{
+    "name": "John Doe",
+    "age": 31
+}
+###
+
